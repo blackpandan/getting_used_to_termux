@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+
+	li{
+		list-style-type: none;
+	}
+}
+
+.header{
+	background-color: lightblue;
+	width: 100vw;
+	display: flex;
+	padding: 3.5vmin 2.5vw 3.5vmin 2.5vw;
+	font-size: 9em;
+
+	.nav{
+		margin: 0 0 0 auto;
+
+		&__links{
+			display: flex;
+
+			&-link{
+				padding: 0 1.65vmin 0 2.5vmin;
+				&:nth-of-type(3){
+					color: blue;
+					padding-right: 1vmin;
+				}
+			}
+		}
+	}
+}
